@@ -21,3 +21,5 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow    command
+0/15 * * * * /home/hd1/test/scripts/ftp_upload/ftp_upload.sh
+0/15 * * * * /home/hd1/test/scripts/housekeeper/housekeeper.sh
